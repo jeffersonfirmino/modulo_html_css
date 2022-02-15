@@ -1,0 +1,47 @@
+*{
+    box-sizing:border-box;
+    /* também pode ser o border-box:content-box; */
+}
+
+body{
+
+    margin:50px;
+    font-size:17px;
+}
+
+/* atribuindo um ID para o conteudo dos paragráfos
+é possível fazer a propriedade de herança (inherit) da formatação de texto para os paragráfos
+*/
+
+#conteudoParagrafos{
+    background-color: blueviolet;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    
+
+}
+p{
+    color:#0000FF;
+    font-size:30px;
+    text-align: left;  
+    text-transform: uppercase; /*transforma em maiuscula */
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    line-height: 40px;
+    text-shadow: 05px 05px 05px #FF0000; /*primeiro começa para a direita, para baixo e o gaussiano (esfumaçado)    
+}
+
+/* Formatação de Texto NO CSS
+o letter-spacing faz o espaçamento entre uma letra e outra
+line-height: 40px; é a altura da linha 
+Espaçamento entre palavras ao inves de letras */
+a{
+    text-decoration:none;
+    color:blueviolet;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
